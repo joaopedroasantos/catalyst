@@ -145,9 +145,10 @@ def _run(handle_data,
             )
         else:
             click.echo(algotext)
-
-    log.warn(ALPHA_WARNING_MESSAGE)
-    log.info('Catalyst version {}'.format(catalyst.__version__))
+    
+    # Not needed more than once
+    # log.warn(ALPHA_WARNING_MESSAGE)
+    # log.info('Catalyst version {}'.format(catalyst.__version__))
     # No Sleep Please
 
     if live:
