@@ -321,6 +321,6 @@ setup(
     extras_require=extras_requires(conda_format=conda_build),
     dependency_links = [
         'git+git://github.com/joaopedroasantos/ccxt.git@1.17.94.3#egg=ccxt&subdirectory=python',
-    ]
+    ],
     **conditional_arguments
 )
