@@ -148,7 +148,7 @@ def _run(handle_data,
 
     log.warn(ALPHA_WARNING_MESSAGE)
     log.info('Catalyst version {}'.format(catalyst.__version__))
-    sleep(3)
+    # No Sleep Please
 
     if live:
         if simulate_orders:
