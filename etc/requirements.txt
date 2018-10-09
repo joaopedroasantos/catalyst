@@ -83,7 +83,6 @@ tables==3.4.2
 certifi==2018.1.18
 
 #Catalyst dependencies
-git+https://github.com/joaopedroasantos/ccxt.git@1.17.94.3#egg=ccxt&subdirectory=python
 boto3==1.5.27
 redo==1.6
 web3==4.4.1; python_version > '3.4'
